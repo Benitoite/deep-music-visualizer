@@ -1,7 +1,8 @@
 ### Deep Music Visualizer
 #### https://github.com/msieg/deep-music-visualizer
 
-Docker instructions:
+##### Docker instructions:
+
 Pull Image:
 ```
 $ docker pull kd6kxr/deep-music-visualizer
