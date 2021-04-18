@@ -1,3 +1,20 @@
+### Deep Music Visualizer
+#### https://github.com/msieg/deep-music-visualizer
+
+Docker instructions:
+Pull Image:
+```
+$ docker pull kd6kxr/deep-music-visualizer`
+```
+Mount User home dir to `/hi` and start a shell:
+```
+$ docker run -it --rm -v c:\Users\username:/hi:private kd6kxr/deep-music-visualizer sh
+```
+Generate video:
+```
+# python3 visualize.py --song beethoven.mp3 --duration 6 --classes 950 939 952 957 930 988 954 948 951 949 987 943 --pitch_sensitivity 280 --tempo_sensitivity .7 --depth .75 --truncation .3 --smooth_factor 5 --output_file /hi/test-output.mp4
+```
+
 # Deep Music Visualizer
 The Deep Music Visualizer uses BigGAN (Brock et al., 2018), a generative neural network, to visualize music. Like this:
 
