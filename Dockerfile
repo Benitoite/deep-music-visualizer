@@ -10,4 +10,4 @@ RUN git clone https://github.com/Benitoite/deep-music-visualizer.git ~/deep-musi
 #   set the entrypoint command
 
 LABEL maintainer="kd6kxr@gmail.com"
-CMD echo "This is a test..." && cd deep-music-visualizer && sh && echo "THATS ALL FOLKS!!!"
+CMD echo "This is a test..." && cd ~/deep-music-visualizer && sh && echo "THATS ALL FOLKS!!!"
