@@ -4,7 +4,7 @@
 Docker instructions:
 Pull Image:
 ```
-$ docker pull kd6kxr/deep-music-visualizer`
+$ docker pull kd6kxr/deep-music-visualizer
 ```
 Mount User home dir to `/hi` and start a shell:
 ```
